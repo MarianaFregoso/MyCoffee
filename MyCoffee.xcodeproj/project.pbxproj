@@ -47,6 +47,7 @@
 		3DC99F8F21709B9300A5992E /* MyCoffeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyCoffeeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC99F9321709B9300A5992E /* MyCoffeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCoffeeUITests.swift; sourceTree = "<group>"; };
 		3DC99F9521709B9300A5992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DC99FA22170BB0800A5992E /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				3DC99F8721709B9300A5992E /* MyCoffeeTests */,
 				3DC99F9221709B9300A5992E /* MyCoffeeUITests */,
 				3DC99F7121709B9100A5992E /* Products */,
+				3DC99FA22170BB0800A5992E /* Roboto-Light.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +99,7 @@
 		3DC99F7221709B9100A5992E /* MyCoffee */ = {
 			isa = PBXGroup;
 			children = (
+				3DC99FA12170A2B200A5992E /* controllers */,
 				3DC99F7321709B9100A5992E /* AppDelegate.swift */,
 				3DC99F7521709B9100A5992E /* ViewController.swift */,
 				3DC99F7721709B9100A5992E /* Main.storyboard */,
@@ -123,6 +126,14 @@
 				3DC99F9521709B9300A5992E /* Info.plist */,
 			);
 			path = MyCoffeeUITests;
+			sourceTree = "<group>";
+		};
+		3DC99FA12170A2B200A5992E /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

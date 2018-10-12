@@ -1,24 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Light.ttf">
+            <string>Roboto-Light</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyCoffee" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="inicio" translatesAutoresizingMaskIntoConstraints="NO" id="dn7-lC-3Po">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="registrer" translatesAutoresizingMaskIntoConstraints="NO" id="HLG-Qf-xzd">
+                                <rect key="frame" x="65" y="115" width="245" height="191"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="My Coffee time " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzC-Lo-eZ2">
+                                <rect key="frame" x="65" y="339" width="237" height="38"/>
+                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="35"/>
+                                <color key="textColor" red="0.48769430051813467" green="0.30487340853913908" blue="0.1137844700655339" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XZT-YP-Jqt">
+                                <rect key="frame" x="69" y="431" width="221" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MYu-w7-RsJ"/>
+                                    <constraint firstAttribute="width" constant="221" id="Q1s-JO-4nL"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dn7-lC-3Po" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="AFt-jH-rdk"/>
+                            <constraint firstItem="dn7-lC-3Po" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="AfY-wA-M03"/>
+                            <constraint firstItem="NzC-Lo-eZ2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="EUR-eJ-LZ2"/>
+                            <constraint firstItem="NzC-Lo-eZ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="Jgr-Z6-abG"/>
+                            <constraint firstItem="dn7-lC-3Po" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="QMD-tt-drY"/>
+                            <constraint firstItem="dn7-lC-3Po" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="brJ-wI-WHz"/>
+                            <constraint firstItem="dn7-lC-3Po" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jEK-X0-KGq"/>
+                            <constraint firstItem="XZT-YP-Jqt" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jbk-Gm-a7U"/>
+                            <constraint firstItem="dn7-lC-3Po" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jtf-8A-tVa"/>
+                            <constraint firstItem="NzC-Lo-eZ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kr6-ZT-drS"/>
+                            <constraint firstItem="XZT-YP-Jqt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nLR-yV-OLb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NzC-Lo-eZ2" secondAttribute="trailing" constant="68" id="p6M-gz-7eV"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ButtonRegister" destination="XZT-YP-Jqt" id="agF-mi-H4q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="117.39130434782609"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="inicio" width="1125" height="2436"/>
+        <image name="registrer" width="559" height="467"/>
+    </resources>
 </document>
