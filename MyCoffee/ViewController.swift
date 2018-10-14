@@ -12,17 +12,28 @@ class ViewController: UIViewController {
 
     @IBOutlet var ButtonRegister: UIButton!
     
+    @IBOutlet var ButtonLogIn: UIButton!
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         ButtonRegister.backgroundColor = UIColor.brown
-        ButtonRegister.layer.cornerRadius = ButtonRegister.frame.height / 2
+        ButtonRegister.layer.cornerRadius = 20
         ButtonRegister.setTitleColor(UIColor.white, for: .normal)
         
-        ButtonRegister.layer.shadowColor = UIColor.red.
+        
+        ButtonLogIn.backgroundColor = UIColor.brown
+        ButtonLogIn.layer.cornerRadius = 20
+        ButtonLogIn.setTitleColor(UIColor.white, for: .normal)
+        
+        
+       
         
         
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
