@@ -19,7 +19,7 @@ class Login: UIViewController {
     @IBAction func doTapSiguiente(_ sender: Any) {
         //hago mi validacion
         
-        if txt1.text != nil && txt1.text != ""{
+        if txt1.text != nil && txt1.text != "" && txt2.text != nil && txt2.text != "" {
          //si pasa la validacion
             performSegue(withIdentifier: "goTapSiguiente", sender: self)
         }else {
