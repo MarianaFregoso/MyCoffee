@@ -1,5 +1,5 @@
 //
-//  Bebida.swift
+//  Postre.swift
 //  MyCoffee
 //
 //  Created by Alumno on 16/10/18.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class Bebida {
+class Postre {
     var nombre : String
     var imagenLista : UIImage
     var imagenDetalle : UIImage
@@ -28,3 +28,4 @@ class Bebida {
         self.calificacion = calificacion
     }
 }
+

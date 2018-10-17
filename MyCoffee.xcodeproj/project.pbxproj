@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D02FCD82176C5960005F7A5 /* cellpostres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D02FCD72176C5960005F7A5 /* cellpostres.swift */; };
 		3D30CBE72175950F00C65D15 /* inicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D30CBE62175950F00C65D15 /* inicio.swift */; };
 		3D3595CF2175EE0800E5C23F /* cellbebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3595CE2175EE0800E5C23F /* cellbebidas.swift */; };
-		3D3595D12175F66D00E5C23F /* Bebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3595D02175F66D00E5C23F /* Bebida.swift */; };
-		3D3595D32175F91200E5C23F /* BebidaDetalleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3595D22175F91200E5C23F /* BebidaDetalleController.swift */; };
-		3D3595D52175FF7600E5C23F /* ComentariosController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3595D42175FF7600E5C23F /* ComentariosController.swift */; };
-		3D3595D8217601C800E5C23F /* comentarcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3595D7217601C800E5C23F /* comentarcontroller.swift */; };
-		3D3595DA2176051600E5C23F /* Comentarios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3595D92176051600E5C23F /* Comentarios.swift */; };
+		3D988CCB2176D4F00032670A /* Comentario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D988CCA2176D4F00032670A /* Comentario.swift */; };
+		3D988CCD2176D71D0032670A /* DatosBebidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D988CCC2176D71D0032670A /* DatosBebidas.swift */; };
+		3D988CCF2176D8BE0032670A /* Postre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D988CCE2176D8BE0032670A /* Postre.swift */; };
+		3D988CD12176D9170032670A /* DatosPostres.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D988CD02176D9170032670A /* DatosPostres.swift */; };
+		3D988CD32176D9F30032670A /* Bebida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D988CD22176D9F30032670A /* Bebida.swift */; };
+		3D988CD52176E61D0032670A /* DetalleProductoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D988CD42176E61D0032670A /* DetalleProductoController.swift */; };
 		3DB003422175B78E004FA14C /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB003412175B78E004FA14C /* MenuController.swift */; };
 		3DC916F52172B16B00BC7722 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC916F42172B16B00BC7722 /* login.swift */; };
 		3DC99F7421709B9100A5992E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DC99F7321709B9100A5992E /* AppDelegate.swift */; };
@@ -43,13 +45,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D02FCD72176C5960005F7A5 /* cellpostres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellpostres.swift; sourceTree = "<group>"; };
 		3D30CBE62175950F00C65D15 /* inicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inicio.swift; sourceTree = "<group>"; };
 		3D3595CE2175EE0800E5C23F /* cellbebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellbebidas.swift; sourceTree = "<group>"; };
-		3D3595D02175F66D00E5C23F /* Bebida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebida.swift; sourceTree = "<group>"; };
-		3D3595D22175F91200E5C23F /* BebidaDetalleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidaDetalleController.swift; sourceTree = "<group>"; };
-		3D3595D42175FF7600E5C23F /* ComentariosController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComentariosController.swift; sourceTree = "<group>"; };
-		3D3595D7217601C800E5C23F /* comentarcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comentarcontroller.swift; sourceTree = "<group>"; };
-		3D3595D92176051600E5C23F /* Comentarios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentarios.swift; sourceTree = "<group>"; };
+		3D988CCA2176D4F00032670A /* Comentario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comentario.swift; sourceTree = "<group>"; };
+		3D988CCC2176D71D0032670A /* DatosBebidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosBebidas.swift; sourceTree = "<group>"; };
+		3D988CCE2176D8BE0032670A /* Postre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postre.swift; sourceTree = "<group>"; };
+		3D988CD02176D9170032670A /* DatosPostres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosPostres.swift; sourceTree = "<group>"; };
+		3D988CD22176D9F30032670A /* Bebida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bebida.swift; sourceTree = "<group>"; };
+		3D988CD42176E61D0032670A /* DetalleProductoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleProductoController.swift; sourceTree = "<group>"; };
 		3DB003402175AAF6004FA14C /* Hestina Font by Keithzo (7NTypes).otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hestina Font by Keithzo (7NTypes).otf"; sourceTree = "<group>"; };
 		3DB003412175B78E004FA14C /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		3DC916F42172B16B00BC7722 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				3D3595CE2175EE0800E5C23F /* cellbebidas.swift */,
+				3D02FCD72176C5960005F7A5 /* cellpostres.swift */,
 			);
 			path = CellControllers;
 			sourceTree = "<group>";
@@ -105,8 +110,9 @@
 		3D2AB5EC2175C23300EA2F72 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				3D3595D02175F66D00E5C23F /* Bebida.swift */,
-				3D3595D92176051600E5C23F /* Comentarios.swift */,
+				3D988CD22176D9F30032670A /* Bebida.swift */,
+				3D988CCA2176D4F00032670A /* Comentario.swift */,
+				3D988CCE2176D8BE0032670A /* Postre.swift */,
 				3DC99F7321709B9100A5992E /* AppDelegate.swift */,
 			);
 			path = Models;
@@ -115,7 +121,6 @@
 		3D3595D6217601A700E5C23F /* tables */ = {
 			isa = PBXGroup;
 			children = (
-				3D3595D7217601C800E5C23F /* comentarcontroller.swift */,
 			);
 			path = tables;
 			sourceTree = "<group>";
@@ -153,6 +158,8 @@
 				3DC99F7A21709B9300A5992E /* Assets.xcassets */,
 				3DC99F7C21709B9300A5992E /* LaunchScreen.storyboard */,
 				3DC99F7F21709B9300A5992E /* Info.plist */,
+				3D988CCC2176D71D0032670A /* DatosBebidas.swift */,
+				3D988CD02176D9170032670A /* DatosPostres.swift */,
 			);
 			path = MyCoffee;
 			sourceTree = "<group>";
@@ -182,8 +189,7 @@
 				3DC916F42172B16B00BC7722 /* login.swift */,
 				3D30CBE62175950F00C65D15 /* inicio.swift */,
 				3DB003412175B78E004FA14C /* MenuController.swift */,
-				3D3595D22175F91200E5C23F /* BebidaDetalleController.swift */,
-				3D3595D42175FF7600E5C23F /* ComentariosController.swift */,
+				3D988CD42176E61D0032670A /* DetalleProductoController.swift */,
 			);
 			name = controllers;
 			path = ..;
@@ -320,16 +326,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D3595D8217601C800E5C23F /* comentarcontroller.swift in Sources */,
+				3D988CD12176D9170032670A /* DatosPostres.swift in Sources */,
 				3DB003422175B78E004FA14C /* MenuController.swift in Sources */,
-				3D3595D52175FF7600E5C23F /* ComentariosController.swift in Sources */,
 				3DC99F7621709B9100A5992E /* ViewController.swift in Sources */,
-				3D3595DA2176051600E5C23F /* Comentarios.swift in Sources */,
+				3D988CD32176D9F30032670A /* Bebida.swift in Sources */,
 				3D3595CF2175EE0800E5C23F /* cellbebidas.swift in Sources */,
-				3D3595D12175F66D00E5C23F /* Bebida.swift in Sources */,
 				3DC916F52172B16B00BC7722 /* login.swift in Sources */,
+				3D988CCB2176D4F00032670A /* Comentario.swift in Sources */,
+				3D988CD52176E61D0032670A /* DetalleProductoController.swift in Sources */,
+				3D02FCD82176C5960005F7A5 /* cellpostres.swift in Sources */,
 				3D30CBE72175950F00C65D15 /* inicio.swift in Sources */,
-				3D3595D32175F91200E5C23F /* BebidaDetalleController.swift in Sources */,
+				3D988CCD2176D71D0032670A /* DatosBebidas.swift in Sources */,
+				3D988CCF2176D8BE0032670A /* Postre.swift in Sources */,
 				3DC99F7421709B9100A5992E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

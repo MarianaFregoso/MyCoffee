@@ -1,5 +1,5 @@
 //
-//  Bebida.swift
+//  Bebidas.swift
 //  MyCoffee
 //
 //  Created by Alumno on 16/10/18.
@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import UIKit
+
 
 class Bebida {
     var nombre : String
