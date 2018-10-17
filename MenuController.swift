@@ -34,7 +34,7 @@ class MenuController : UIViewController, UITableViewDataSource, UITableViewDeleg
             celda.imgbebida.image = DatosBebidas.bebidas[indexPath.row].imagenLista
             return celda
         } else {
-            let celda = tableView.dequeueReusableCell(withIdentifier: "cellpostre") as!
+            let celda = tableView.dequeueReusableCell(withIdentifier: "cellpostres") as!
                 cellpostres
             celda.lblnombrepostres.text = DatosPostres.postres[indexPath.row].nombre
             celda.imgpostres.image = DatosPostres.postres[indexPath.row].imagenLista
